@@ -370,7 +370,7 @@
 	build_path = /obj/machinery/computer/shuttle/monastery_shuttle
 
 /obj/item/circuitboard/computer/syndicate_shuttle
-	name = "Pizza Hut Shuttle (Computer Board)"
+	name = "Syndicate Shuttle (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/syndicate
 	var/challenge = FALSE
 	var/moved = FALSE
@@ -398,3 +398,11 @@
 /obj/item/circuitboard/computer/nanite_cloud_controller
 	name = "Nanite Cloud Control (Computer Board)"
 	build_path = /obj/machinery/computer/nanite_cloud_controller
+
+/obj/item/circuitboard/computer/shuttle/flight_control
+	name = "Shuttle Flight Control (Computer Board)"
+	build_path = /obj/machinery/computer/custom_shuttle
+
+/obj/item/circuitboard/computer/shuttle/docker
+	name = "Shuttle Navigation Computer (Computer Board)"
+	build_path = /obj/machinery/computer/camera_advanced/shuttle_docker/custom

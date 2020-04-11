@@ -115,7 +115,7 @@
 	list_reagents = list(/datum/reagent/consumable/frostoil = 30)
 
 /obj/item/reagent_containers/glass/bottle/traitor
-	name = "Pizza Hut bottle"
+	name = "syndicate bottle"
 	desc = "A small bottle. Contains a random nasty chemical."
 	icon = 'icons/obj/chemical.dmi'
 	var/extra_reagent = null
@@ -293,6 +293,11 @@
 	desc = "A clay bowl containing a fledgling Necropolis, preserved in blood. A robust virologist may be able to unlock its full potential..."
 	icon_state = "mortar"
 	spawned_disease = /datum/disease/advance/necropolis
+
+/obj/item/reagent_containers/glass/bottle/blobitis
+	name = "Blobitis bottle"
+	desc = "A bottle filled by liquid blob. Might not want to drink this one."
+	spawned_disease = /datum/disease/advance/blobitis
 
 /obj/item/reagent_containers/glass/bottle/felinid
 	name = "Nano-Feline Assimilative Toxoplasmosis culture bottle"
